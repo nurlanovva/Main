@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    p{
+        margin: 0px;
+    
+    }
+}
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.errorText{
+    color: red;
+    margin-top: 4px !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input{
+    width: 100%;
+}
